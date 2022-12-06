@@ -11,6 +11,7 @@ export const Avatar = styled.img`
   position: absolute;
   top: 3%;
   left: 15%;
+  box-shadow: 0px 4px 20px 2px #0c0c0c72;
 `;
 
 export const SideBarContext = styled.div`
