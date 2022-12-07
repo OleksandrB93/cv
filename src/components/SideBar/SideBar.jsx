@@ -35,7 +35,7 @@ export default function SideBar() {
               <ContactIcon>
                 <BiPhoneCall />
               </ContactIcon>
-              +38 093 987 63 53
+              <MyLink href="tel:+38 093 987 63 53">+38 093 987 63 53</MyLink>
             </MyLink>
           </TelMail>
 
@@ -44,7 +44,9 @@ export default function SideBar() {
               <ContactIcon>
                 <BiMailSend />
               </ContactIcon>
-              barabashsan4ik@gmail.com
+              <MyLink href="mailto:barabashsan4ik@gmail.com">
+                barabashsan4ik@gmail.com
+              </MyLink>
             </MyLink>
           </TelMail>
 
@@ -53,7 +55,7 @@ export default function SideBar() {
               <ContactIcon>
                 <FaTelegramPlane />
               </ContactIcon>
-              Telegram
+              <MyLink href="https://t.me/Oleksandr_Barabash">Telegram</MyLink>
             </MyLink>
           </TelMail>
 
@@ -62,7 +64,9 @@ export default function SideBar() {
               <ContactIcon>
                 <FaLinkedin />
               </ContactIcon>
-              Linkedin.com
+              <MyLink href="https://www.linkedin.com/in/olexandr-barabash-034812139/">
+                Linkedin.com
+              </MyLink>
             </MyLink>
           </TelMail>
 
@@ -71,7 +75,9 @@ export default function SideBar() {
               <ContactIcon>
                 <GoMarkGithub />
               </ContactIcon>
-              github.com/OleksandrB93
+              <MyLink href="https://github.com/OleksandrB93">
+                github.com/OleksandrB93
+              </MyLink>
             </MyLink>
           </TelMail>
 
@@ -80,7 +86,9 @@ export default function SideBar() {
               <ContactIcon>
                 <MdMyLocation />
               </ContactIcon>
-              Chornomorsk, Odessa Oblast
+              <MyLink href="https://goo.gl/maps/XX8wchQXqgXEHBqV9">
+                Chornomorsk, Odessa Oblast
+              </MyLink>
             </MyLink>
           </TelMail>
         </ContactContext>

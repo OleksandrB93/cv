@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const SummaryContainer = styled.div`
   margin-top: 70px;
   margin-left: 150px;
-  margin-bottom: 58px;
+  margin-bottom: 28px;
 `;
 
 export const MyName = styled.h1`
