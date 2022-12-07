@@ -20,13 +20,15 @@ export const ProjectsItem = styled.li`
   padding-left: 55px;
 
   list-style: none;
-`;
+  `;
 
 export const ProjectLink = styled.a`
   color: #fec601;
   font-size: 18px;
   font-weight: 700;
-`;
+  padding: 3px 0;
+  text-decoration: 2px underline;
+  `;
 
 export const ProjectsDescript = styled.p`
   font-size: 14px;
@@ -36,5 +38,5 @@ export const ProjectsTech = styled.p`
   margin-top: 5px;
 
   font-size: 12px;
-  text-decoration: underline;
+  text-decoration:  underline;
 `;

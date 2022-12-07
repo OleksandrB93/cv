@@ -20,6 +20,8 @@ export const AcademyTitle = styled.p`
   font-size: 18px;
   font-weight: 700;
 
+
+  text-decoration: 2px underline;
   color: #fec601;
 `;
 

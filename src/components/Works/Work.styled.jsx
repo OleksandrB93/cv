@@ -22,6 +22,8 @@ export const JobTitle = styled.p`
   color: #fec601;
   font-size: 18px;
   font-weight: 700;
+  padding: 3px 0;
+  text-decoration: 2px underline;
 `;
 
 export const JobContext = styled.p`
