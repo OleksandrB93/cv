@@ -7,5 +7,5 @@ export const AppContainer = styled.div`
 `;
 
 export const Main = styled.div`
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 `;

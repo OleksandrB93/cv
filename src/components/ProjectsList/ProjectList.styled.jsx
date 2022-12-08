@@ -1,14 +1,15 @@
 import styled from '@emotion/styled';
 
 export const ProjectsContainer = styled.ol`
-  margin-bottom: 40px;
-  color: #d7d7d7;
-  margin-left: 65px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: 65px;
+ color: #d7d7d7;
 `;
 export const TitleProjects = styled.h2`
   width: 83%;
 
-  margin-top: 115px;
+  margin-top: 80px;
   padding: 5px;
   background-color: #fcfefb;
   color: #2d2d2d;
@@ -17,7 +18,7 @@ export const TitleProjects = styled.h2`
 
 export const ProjectsItem = styled.li`
   width: 80.5%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   list-style: none;
 `;
 
@@ -26,6 +27,7 @@ export const ProjectLink = styled.a`
   font-size: 22px;
   font-weight: 700;
   padding: 3px 0;
+  padding-top: 0;
 `;
 
 export const ProjectGit = styled.a`

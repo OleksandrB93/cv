@@ -44,8 +44,7 @@ BEM methodology, SASS preprocessor were also used.`,
     link: 'https://github.com/Victor-Rochnyak/Filmoteka',
     technology: 'HTML5, CSS3, JavaScript, Parcel',
     discription: `A short-term team project by 6 collaborators.
-I was a Team Lead assistant & Front-end developer of the project. 
-I implement closing of the modal window by pressing the ESC key and by clicking outside the modal window, do not forget to remove the listeners, Connect / spin Loader (spinner) for asynchronous requests, Slider to the movie library, implement search and display of movies by keyword`,
+I was a Team Lead assistant & Front-end developer of the project.`,
   },
   {
     name: 'MovieState',

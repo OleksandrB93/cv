@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 
 export const WorkContainer = styled.div`
+margin-top: 10px;
   margin-left: 65px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #d7d7d7;
 `;
 export const WorkTitle = styled.h2`
