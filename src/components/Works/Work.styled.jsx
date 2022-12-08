@@ -6,7 +6,8 @@ export const WorkContainer = styled.div`
   color: #d7d7d7;
 `;
 export const WorkTitle = styled.h2`
-  width: 80%;
+  width: 78%;
+
   padding: 5px;
   padding-left: 55px;
 

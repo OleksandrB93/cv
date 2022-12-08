@@ -11,7 +11,8 @@ export const EducationItem = styled.div`
 `;
 
 export const EducationTitle = styled.h2`
-  width: 80%;
+  width: 78%;
+
   padding: 5px;
   padding-left: 55px;
 

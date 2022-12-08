@@ -6,9 +6,9 @@ export const ProjectsContainer = styled.ol`
   margin-left: 65px;
 `;
 export const TitleProjects = styled.h2`
-  width: 80%;
+  width: 83%;
 
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 5px;
   background-color: #fcfefb;
   color: #2d2d2d;
