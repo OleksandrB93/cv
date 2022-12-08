@@ -1,25 +1,23 @@
 import styled from '@emotion/styled';
 
+export const ProjectsContainer = styled.ol`
+  margin-bottom: 40px;
+  color: #d7d7d7;
+  margin-left: 65px;
+`;
 export const TitleProjects = styled.h2`
   width: 80%;
 
+  margin-top: 50px;
   padding: 5px;
-  padding-left: 55px;
   background-color: #fcfefb;
   color: #2d2d2d;
 `;
 
-export const ProjectsContainer = styled.ol`
-  padding: 68px 0px;
-  padding-bottom: 0;
-  color: #d7d7d7;
-`;
 
 export const ProjectsItem = styled.li`
   width: 80.5%;
   margin-bottom: 10px;
-  margin-left: 55px;
-
   list-style: none;
 `;
 

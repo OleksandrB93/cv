@@ -19,7 +19,7 @@ import { CgList } from '@react-icons/all-files/cg/CgList';
 const Projects = [
   {
     name: 'IceCream',
-    icon: <FaIceCream size={18}/>,
+    icon: <FaIceCream size={18} />,
     href: 'https://victor-rochnyak.github.io/IceCream/',
     link: 'https://github.com/Victor-Rochnyak/IceCream',
     technology: 'HTML5, CSS3, JavaScript, Parcel',
@@ -38,7 +38,7 @@ BEM methodology, SASS preprocessor were also used.`,
   },
   {
     name: 'Filmotica',
-    icon: <RiMovie2Line size={18}/>,
+    icon: <RiMovie2Line size={18} />,
 
     href: 'https://victor-rochnyak.github.io/Filmoteka/',
     link: 'https://github.com/Victor-Rochnyak/Filmoteka',
@@ -49,7 +49,7 @@ I implement closing of the modal window by pressing the ESC key and by clicking 
   },
   {
     name: 'MovieState',
-    icon: <GiFilmProjector size={20}/>,
+    icon: <GiFilmProjector size={20} />,
 
     href: 'https://oleksandrb93.github.io/react-movie/',
     link: 'https://github.com/OleksandrB93/react-movie',
@@ -58,7 +58,7 @@ I implement closing of the modal window by pressing the ESC key and by clicking 
   },
   {
     name: 'PhoneBook',
-    icon: <CgList size={18}/>,
+    icon: <CgList size={18} />,
 
     href: 'https://oleksandrb93.github.io/goit-react-hw-06-phonebook/',
     link: 'https://github.com/OleksandrB93/goit-react-hw-06-phonebook',
@@ -69,22 +69,24 @@ I implement closing of the modal window by pressing the ESC key and by clicking 
 
 export default function ProjectList() {
   return (
-    <ProjectsContainer>
+    <>
       <TitleProjects>Projects</TitleProjects>
-      {Projects.map(({ href, name, icon, link, technology, discription }) => (
-        <ProjectsItem key={href}>
-          <LinkContainer>
-            <ProjectLink href={href}>
-              {icon} {name}
-            </ProjectLink>
-            <ProjectGit href={link}>
-              <GoMarkGithub size={26} />
-            </ProjectGit>
-          </LinkContainer>
-          <ProjectsDescript>{discription}</ProjectsDescript>
-          <ProjectsTech>{technology}</ProjectsTech>
-        </ProjectsItem>
-      ))}
-    </ProjectsContainer>
+      <ProjectsContainer>
+        {Projects.map(({ href, name, icon, link, technology, discription }) => (
+          <ProjectsItem key={href}>
+            <LinkContainer>
+              <ProjectLink href={href}>
+                {icon} {name}
+              </ProjectLink>
+              <ProjectGit href={link}>
+                <GoMarkGithub size={26} />
+              </ProjectGit>
+            </LinkContainer>
+            <ProjectsDescript>{discription}</ProjectsDescript>
+            <ProjectsTech>{technology}</ProjectsTech>
+          </ProjectsItem>
+        ))}
+      </ProjectsContainer>
+    </>
   );
 }

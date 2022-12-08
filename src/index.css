@@ -25,3 +25,8 @@ img {
 a {
   text-decoration: none;
 }
+
+ol {
+  padding: 0;
+  margin: 0;
+}
