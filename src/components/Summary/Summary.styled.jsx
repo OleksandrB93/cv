@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 export const SummaryContainer = styled.div`
-  margin-top: 70px;
-  margin-left: 150px;
+  margin-top: 95px;
+  margin-left: 130px;
   margin-bottom: 28px;
 `;
 
