@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const EducationContainer = styled.div`
 margin-top: 10px;
   margin-left: 65px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   color: #d7d7d7;
 `;
 
