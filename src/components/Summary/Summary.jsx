@@ -1,11 +1,11 @@
 import React from 'react';
-import { SummaryContainer, MyName, CvText } from './Summary.styled';
+import { SummaryContainer, MyName, CvText, Developer, } from './Summary.styled';
 
 export default function Summary() {
   return (
     <SummaryContainer>
-      <CvText>Front-End Developer</CvText>
       <MyName>Oleksandr Barabash</MyName>
+      <Developer>Front-End Developer</Developer>
       <CvText>
         Hello, I am studying Front End technologies. I am glad that you have a
         Junior vacancy and I want to join your company as a young developer for

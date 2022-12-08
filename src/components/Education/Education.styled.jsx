@@ -6,6 +6,10 @@ export const EducationContainer = styled.div`
   color: #d7d7d7;
 `;
 
+export const EducationItem = styled.div`
+  margin-bottom: 20px;
+`
+
 export const EducationTitle = styled.h2`
   width: 80%;
 

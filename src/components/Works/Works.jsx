@@ -13,9 +13,9 @@ export default function Works() {
     <WorkContainer>
       <WorkTitle>Work Experience</WorkTitle>
       <JobItem>
-        <JobTitle>Developer of heat supply projects Freelance</JobTitle>
-        <JobContext>Projects developed using AutoCAD.</JobContext>
-        <JobDate>September 2016 - 2017 | Ukraine</JobDate>
+        <JobTitle>Shop driver Office supplies</JobTitle>
+        <JobContext>Delivery of goods to the stores.</JobContext>
+        <JobDate>February 2021 - February 2022 | Ukraine</JobDate>
       </JobItem>
 
       <JobItem>
@@ -28,18 +28,12 @@ export default function Works() {
       </JobItem>
 
       <JobItem>
-        <JobTitle>Shop driver Office supplies</JobTitle>
-        <JobContext>Delivery of goods to the stores.</JobContext>
-        <JobDate>February 2021 - February 2022 | Ukraine</JobDate>
+        <JobTitle>Developer of heat supply projects Freelance</JobTitle>
+        <JobContext>Projects developed using AutoCAD.</JobContext>
+        <JobDate>September 2016 - 2017 | Ukraine</JobDate>
       </JobItem>
 
-      <JobItem>
-        <JobTitle>Student GO IT</JobTitle>
-        <JobContext>
-          Study modern technologies in the direction of Full Stack Developer.
-        </JobContext>
-        <JobDate>February 2022 - now | Ukraine</JobDate>
-      </JobItem>
+
     </WorkContainer>
   );
 }

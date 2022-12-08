@@ -55,7 +55,9 @@ export default function SideBar() {
               <ContactIcon>
                 <FaTelegramPlane />
               </ContactIcon>
-              <MyLink href="https://t.me/Oleksandr_Barabash">Telegram</MyLink>
+              <MyLink href="https://t.me/Oleksandr_Barabash">
+                Oleksandr_Barabash
+              </MyLink>
             </MyLink>
           </TelMail>
 
@@ -100,8 +102,9 @@ export default function SideBar() {
             <SillsItem>GIT</SillsItem>
             <SillsItem>Sass</SillsItem>
             <SillsItem>JavaScript</SillsItem>
-            <SillsItem>React.js</SillsItem>
-            <SillsItem>Redux Toolkit</SillsItem>
+            <SillsItem>React Hooks & Components</SillsItem>
+            <SillsItem>React Redux Toolkit</SillsItem>
+            <SillsItem>REST API</SillsItem>
           </MySkills>
         </div>
         <div>
@@ -110,7 +113,9 @@ export default function SideBar() {
             <SillsItem>Agile</SillsItem>
             <SillsItem>Goal-oriented</SillsItem>
             <SillsItem>Attention to detail</SillsItem>
-            <SillsItem>Teamwork</SillsItem>
+            <SillsItem>Team Work</SillsItem>
+            <SillsItem>Adaptation Skills</SillsItem>
+            <SillsItem>Communicative</SillsItem>
           </MySkills>
         </div>
 

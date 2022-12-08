@@ -15,8 +15,8 @@ export const App = () => {
       <Main>
         <Summary />
         <ProjectList />
-        <Education />
         <Works />
+        <Education />
       </Main>
     </AppContainer>
   );
