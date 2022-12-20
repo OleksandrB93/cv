@@ -12,7 +12,7 @@ export const TitleProjects = styled.h2`
   margin-top: 92px;
   padding: 5px;
   padding-left: 65px;
-  background-color: #fcfefb;
+  /* background-color: #fcfefb; */
   color: #2d2d2d;
 `;
 

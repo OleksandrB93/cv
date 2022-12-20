@@ -10,7 +10,7 @@ export const WorkTitle = styled.h2`
   width: 78%;
   padding: 5px;
   padding-left: 65px;
-  background-color: #fcfefb;
+  /* background-color: #fcfefb; */
   color: #2d2d2d;
 `;
 
