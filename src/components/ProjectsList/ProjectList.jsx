@@ -59,9 +59,9 @@ I was a Team Lead assistant & Front-end developer of the project.`,
     name: 'PhoneBook',
     icon: <CgList size={18} />,
 
-    href: 'https://oleksandrb93.github.io/goit-react-hw-06-phonebook/',
-    link: 'https://github.com/OleksandrB93/goit-react-hw-06-phonebook',
-    technology: 'React, Redux Tollkit, Webpack ',
+    href: 'https://oleksandrb93.github.io/goit-react-hw-08-phonebook/',
+    link: 'https://github.com/OleksandrB93/goit-react-hw-08-phonebook',
+    technology: 'React, Redux Tollkit, JWT,  Webpack ',
     discription: '',
   },
 ];
